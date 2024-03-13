@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    border: none;
+}
+h1{
+    color: white;
+}
+img{
+    width: 100%;
+}
+.container{
+    background-color: rgb(44, 62, 80);
+    max-width: 1320px;
+    height: 104px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+}
+.nav_item{
+    display: flex;
+    gap: 45px;
+    color: white;
+}
+.navbar{
+    height: 56px;
+    width: 100%;
+    background-color: rgb(44, 62, 80);
+    height: 104px;
+}
+.hidden{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .hidden{
+        max-width: 990px;
+        display: flex;
+        border-radius: 5px;
+        color: white;
+        width: 86px;
+        height: 44px;
+        background-color: #1abc9c;
+        justify-content: center;
+        align-items: center;   
+    }
+    .nav_item{
+        display: none;
+    }
+}
+/*navbar end*/
+.aqua_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.aqua{
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 112px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+.right{
+    width: 112px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+.aqua_icon{
+    display: flex;
+    justify-content: center;
+}
+.aqua_general{
+    max-width: 1320px;
+    height: 735px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 120px;
+}
+.aqua_head{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+i{
+    color: white;
+}
+.aqua_text{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+.aqua_img{
+    width: 70%;
+    height: 70%;
+   margin: auto;
+    margin-top: 60px;
+}
+.aqua_text{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 70px;
+    
+}
+.aqua_head{
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 19px;
+    
+}
+.left{
+    width: 85px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+.right{
+    width: 85px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+.aqua_icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap: 15px; 
+}
+}
+@media only screen and (max-width: 500px){
+
+.aqua_img{
+    width: 55%;
+    height: 55%;
+    margin: auto;
+    margin-top: 90px;
+}
+.aqua_text{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 70px;
+    
+}
+.aqua_head{
+    font-size: 23px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 40px;
+    
+}
+.left{
+    width: 63px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+.right{
+    width: 63px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+.aqua_icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap: 15px; 
+}
+}
+/*media*/
+.portfolia{
+    background-color: white;
+    max-width: 1320px;
+
+}
+.port_left{
+    width: 112px;
+    height: 2px;
+    background-color: rgb(44, 62, 80);
+    margin-top: 8px;
+}
+.port_right{
+    width: 112px;
+    height: 2px;
+    background-color: rgb(44, 62, 80);
+    margin-top: 8px;
+}
+.port_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.port_head{
+    text-align: center;
+    margin-top: 110px;
+}
+.column_img_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+
+}
+.column_img_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+.square{
+    border-radius: 15px;
+    margin-left: 15px;
+}
